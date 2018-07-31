@@ -22,11 +22,54 @@ h1 {
    top: 50px;
 }
 
-p {
+#subtitle {
    display: block;
    position: absolute;
    top: 110px;
    left: 123px;
    z-index: 1;
    font-style: italic;
+}
+
+.arvo-quote-container {
+   width: 450px;
+   right: -480px;
+   top: 194px;
+   z-index: 1;
+   position: relative;
+   white-space: pre;
+}
+
+#arvo-quote {
+   display: block;
+   position:absolute;
+   line-height: 22px;
+   font-style: italic;
+}
+
+#attribution-container {
+   text-align: right;
+   bottom: 0;
+   right: 0;
+   margin-top: -40px;
+   margin-right: 60px;
+}
+
+#list-of-songs {
+   position: relative;
+   z-index: 1;
+   border: 1px solid black;
+}
+
+ul {
+   list-style-type: none;
+   white-space: pre;
+}
+
+ul > li {
+   position: absolute;
+}
+
+li:nth-child(1) {
+
 }
