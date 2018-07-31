@@ -85,19 +85,27 @@ ul {
    width: 700px;
    top: 455px;
    left: 90px;
-   letter-spacing: .5px;
 }
 
-.review-text {
+#first-review-text {
    display: block;
-   font-size: 11pt;
+   font-size: 10pt;
    white-space: pre;
    font-style: italic;
    line-height: 18px;
+   letter-spacing: .5px;
 }
 
+#second-review-item-container {
+   position: relative;
+   top: 431px;
+   z-index: 1;
+}
 
-/* width: 400px;
-border: 1px solid black;
-top: 431px;
-left: 600px; */
+#second-review-text {
+   display: block;
+   font-size: 10pt;
+   white-space: pre;
+   line-height: 17px;
+   font-style: italic;
+}
