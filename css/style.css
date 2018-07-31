@@ -82,17 +82,18 @@ ul {
 
 .review-item-container {
    position: relative;
-   width: 400px;
-   border: 1px solid black;
-   top: 431px;
-   left: 600px;
+   width: 700px;
+   top: 455px;
+   left: 90px;
+   letter-spacing: .5px;
 }
 
 .review-text {
    display: block;
    font-size: 11pt;
-
-
+   white-space: pre;
+   font-style: italic;
+   line-height: 18px;
 }
 
 
